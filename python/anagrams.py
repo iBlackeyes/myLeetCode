@@ -5,12 +5,7 @@
 ###         复杂度：
 class Solution(object):
     def isAnagram(self, s, t):
-        """
-        :type s: str
-        :type t: str
-        s = sorted(s)
-        t = sorted(t)
-        """
+        """tes"""
         if s == t:
             return True
         else:
