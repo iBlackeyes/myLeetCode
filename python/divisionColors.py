@@ -34,6 +34,8 @@ def solution2(nums):
         nums[-n2:] = [2] * n2           # 切记是 -n2
     print n0, n2
 
+# 还有一种方法： 不同的值 增加的步长不一样
+
 if __name__ == '__main__' :
     nums = [0,2,2,1,0,2,1,1,2,0]
     print nums
