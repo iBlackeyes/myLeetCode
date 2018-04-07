@@ -5,7 +5,8 @@
 ###         复杂度：
 class Solution(object):
     def isAnagram(self, s, t):
-        """tes"""
+        s = sorted(s)
+        t = sorted(t)
         if s == t:
             return True
         else:
