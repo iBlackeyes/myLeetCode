@@ -8,6 +8,7 @@ class ListNode(object):
 
 #  Sort a linked list in O(n log n) time using constant space complexity.
 #  要求在O(n*logn)时间复杂度 且常量空间复杂度实现
+#  使用归并排序 时间复杂度O(nlogn) 空间复杂度O(n) https://blog.csdn.net/yuzhihui_no1/article/details/44223225
 class Solution(object):
     def sortList(self, head):
         if not head or not head.next:    # 判断条件不可少
