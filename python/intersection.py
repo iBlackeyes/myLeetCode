@@ -42,6 +42,7 @@ def main():
     print interSection2(sorted(num1), sorted(num2))
 
 if __name__ == '__main__' :
+
     main()
 
 
