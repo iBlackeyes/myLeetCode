@@ -12,6 +12,7 @@ class Solution(object):
         else:
             return False
 
+# test
 if __name__ == '__main__':
     s = "anaconda"
     t = "naaconda"
